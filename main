@@ -1,0 +1,52 @@
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Velas Artesanales - Venta Online</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f9f6f2; margin: 0; padding: 0;}
+    .container { max-width: 900px; margin: 40px auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);}
+    h1 { color: #b77b4b; }
+    .productos { display: flex; flex-wrap: wrap; gap: 30px; }
+    .producto { background: #f2e7d5; border-radius: 8px; padding: 20px; flex: 1 1 240px; box-shadow: 0 1px 3px rgba(0,0,0,0.07);}
+    .producto img { width: 100%; max-width: 180px; border-radius: 8px;}
+    .precio { color: #b77b4b; font-weight: bold; font-size: 1.2em; }
+    .boton { background: #b77b4b; color: #fff; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; }
+    .boton:hover { background: #a06634; }
+    @media (max-width: 700px) {
+      .productos { flex-direction: column; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Velas Artesanales</h1>
+    <p>Bienvenido/a a nuestra tienda online de velas hechas a mano. Descubre nuestras velas únicas y aromáticas para cada ocasión.</p>
+    <div class="productos">
+      <div class="producto">
+        <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80" alt="Vela aromática">
+        <h2>Vela Aromática</h2>
+        <p>Vela de soja con aroma a lavanda. Ideal para relajarse.</p>
+        <div class="precio">8,00 €</div>
+        <button class="boton">Comprar</button>
+      </div>
+      <div class="producto">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Vela decorativa">
+        <h2>Vela Decorativa</h2>
+        <p>Vela artesanal en forma de flor. Perfecta para decorar cualquier espacio.</p>
+        <div class="precio">10,00 €</div>
+        <button class="boton">Comprar</button>
+      </div>
+      <div class="producto">
+        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Pack regalo">
+        <h2>Pack Regalo</h2>
+        <p>Pack de 3 velas pequeñas con diferentes aromas.</p>
+        <div class="precio">15,00 €</div>
+        <button class="boton">Comprar</button>
+      </div>
+    </div>
+    <h2>Contacto</h2>
+    <p>¿Tienes dudas o quieres un pedido personalizado? Escríbenos a <a href="mailto:velasartesanales@ejemplo.com">velasartesanales@ejemplo.com</a></p>
+  </div>
+</body>
+</html>
